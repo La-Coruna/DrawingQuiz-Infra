@@ -5,9 +5,6 @@ metadata:
   name: django-app
   labels:
     app: django
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: django=docker.io/lacoruna/drawingquiz
-    argocd-image-updater.argoproj.io/django.tag: latest
 
 spec:
   replicas: 2 # 일단 1개로 시작
