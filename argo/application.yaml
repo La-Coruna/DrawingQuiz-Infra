@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: 'https://github.com/<너의-gitops-repo>.git'
+    repoURL: 'https://github.com/La-Coruna/DrawingQuiz-Infra.git'
     targetRevision: main
     path: app
 
