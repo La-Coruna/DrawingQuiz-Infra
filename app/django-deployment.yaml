@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: django
-        image: lacoruna/drawingquiz:latest # 사용자의 이미지로 교체하세요
+        image: docker.io/lacoruna/drawingquiz:85f58de
         ports:
         - containerPort: 8000 # Django 기본 포트
         env:
