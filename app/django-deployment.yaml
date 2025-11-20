@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: django
-        image: docker.io/lacoruna/drawingquiz:a457a35
+        image: docker.io/lacoruna/drawingquiz:aae7811
         ports:
         - containerPort: 8000 # Django 기본 포트
         env:
